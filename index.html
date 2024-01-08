@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style> 
+body{
+text-align:center;
+background:black;
+}
+
+#div {
+  width: 100px;
+  height: 100px;
+  background-color: indigo;
+  animation: example 100000000000s;
+  border-radius:40%;
+  margin-left:40%;
+  transform:rotate(0deg);
+}
+
+#divii{
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+  animation: example 100000000000s;
+  border-radius:40%;
+  margin-left:30%;
+  transform:rotate(0deg);
+}
+
+::selection{
+  color:white;
+  background-color:black;
+}
+
+#di{
+  border-radius:40%;
+  width:50px;
+  height:50px;
+  background-color:purple;
+  animation: example 100000000000s;
+  transform:rotate(0deg);
+  margin-left:45%;
+}
+
+#d{
+  border-radius:40%;
+  background-color:skyblue;
+  width:25px;
+  height:25px;
+  animation:example 100000000000s;
+  transform:rotate(0deg);
+  margin-left:48%;
+}
+
+#a{
+  border-radius:40%;
+  background-color:white;
+  width:12px;
+  height:12px;
+  animation:example 100000000000s;
+  transform:rotate(0deg);
+  margin-left:50%;
+}
+
+@keyframes example {
+  from {transform:rotate(0deg)}
+  to {transform:rotate(36000000000000deg)}
+}
+
+#h1{
+    background-image:linear-gradient(to right top, indigo,violet,purple,skyblue);
+    color:white;
+    padding:10px;
+    font-family:cursive;
+    border-radius:50px;
+    box-shadow: 0px 4px 3px purple;
+}
+</style>
+</head>
+<body>
+
+<h1 id="h1" class="page-header text-capitalize">Anxious Animations</h1>
+<div id="a"></div>
+<div id="d"></div>
+<div id="di"></div>
+<div id="div"></div>
+<div id="divi"></div>
+<div id="divii"></div>
+
+
+</body>
+</html>
+
+
